@@ -13,8 +13,8 @@
 		DC751B2A2934E90F006A52D0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B292934E90F006A52D0 /* UserData.swift */; };
 		DC751B2C2934EEC8006A52D0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B2B2934EEC8006A52D0 /* DataService.swift */; };
 		DC751B2F2934F025006A52D0 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC751B2D2934F025006A52D0 /* UserModel.xcdatamodeld */; };
-		DC751B3B29364669006A52D0 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B3929364669006A52D0 /* UserEntity+CoreDataClass.swift */; };
-		DC751B3C29364669006A52D0 /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B3A29364669006A52D0 /* UserEntity+CoreDataProperties.swift */; };
+		DC751B3F2937B9F2006A52D0 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B3D2937B9F2006A52D0 /* UserEntity+CoreDataClass.swift */; };
+		DC751B402937B9F2006A52D0 /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC751B3E2937B9F2006A52D0 /* UserEntity+CoreDataProperties.swift */; };
 		DC989EF22933C8230064D5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC989EF12933C8230064D5BF /* AppDelegate.swift */; };
 		DC989EF42933C8230064D5BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC989EF32933C8230064D5BF /* SceneDelegate.swift */; };
 		DC989EF62933C8230064D5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC989EF52933C8230064D5BF /* ViewController.swift */; };
@@ -29,8 +29,8 @@
 		DC751B292934E90F006A52D0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		DC751B2B2934EEC8006A52D0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		DC751B2E2934F025006A52D0 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
-		DC751B3929364669006A52D0 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		DC751B3A29364669006A52D0 /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC751B3D2937B9F2006A52D0 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DC751B3E2937B9F2006A52D0 /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DC989EEE2933C8230064D5BF /* Task 16,17,18. URLSession, CoreData, Userdefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task 16,17,18. URLSession, CoreData, Userdefaults.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC989EF12933C8230064D5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC989EF32933C8230064D5BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +54,8 @@
 		DC751B342934F09A006A52D0 /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				DC751B3929364669006A52D0 /* UserEntity+CoreDataClass.swift */,
-				DC751B3A29364669006A52D0 /* UserEntity+CoreDataProperties.swift */,
+				DC751B3D2937B9F2006A52D0 /* UserEntity+CoreDataClass.swift */,
+				DC751B3E2937B9F2006A52D0 /* UserEntity+CoreDataProperties.swift */,
 				DC751B2D2934F025006A52D0 /* UserModel.xcdatamodeld */,
 			);
 			path = CoreDataModel;
@@ -199,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC989EF62933C8230064D5BF /* ViewController.swift in Sources */,
-				DC751B3C29364669006A52D0 /* UserEntity+CoreDataProperties.swift in Sources */,
-				DC751B3B29364669006A52D0 /* UserEntity+CoreDataClass.swift in Sources */,
+				DC751B402937B9F2006A52D0 /* UserEntity+CoreDataProperties.swift in Sources */,
+				DC751B3F2937B9F2006A52D0 /* UserEntity+CoreDataClass.swift in Sources */,
 				DC751B262934DB3E006A52D0 /* ApiService.swift in Sources */,
 				DC751B2A2934E90F006A52D0 /* UserData.swift in Sources */,
 				DC989EF22933C8230064D5BF /* AppDelegate.swift in Sources */,
