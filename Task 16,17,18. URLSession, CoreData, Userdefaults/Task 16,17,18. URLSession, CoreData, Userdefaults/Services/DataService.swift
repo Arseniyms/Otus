@@ -81,17 +81,15 @@ class DataService {
     }
     
     func deleteAllData() {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
-        let managedContext = appDelegate.persistentContainer.viewContext
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "UserEntity")
         fetchRequest.returnsObjectsAsFaults = false
         
         do {
-            let arrUsrObj = try managedContext.fetch(fetchRequest)
+            let arrUsrObj = try DataService.context.fetch(fetchRequest)
             for usrObj in arrUsrObj as! [NSManagedObject] {
-                managedContext.delete(usrObj)
+                DataService.context.delete(usrObj)
             }
-            try managedContext.save() //don't forget
+            try DataService.context.save()
         } catch let error as NSError {
             print("delete fail--",error)
         }
