@@ -55,7 +55,7 @@ class EditProfileInteractor: PresenterToInteractorEditProfileProtocol {
     }
 
     func validateAge(_ age: String) {
-        if let _ = Int(age) {
+        if let intAge = Int(age), intAge > 0 {
             presenter?.fetchValidAge(true)
         } else {
             presenter?.fetchValidAge(false)

@@ -1,0 +1,43 @@
+PODS:
+  - ICConfetti (0.0.1)
+  - MatusHomework (0.0.18):
+    - ICConfetti
+    - OtusHomework
+    - SnapKit (~> 5.6.0)
+  - OtusHomework (0.0.17):
+    - SnapKit
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - MatusHomework (from `https://github.com/Arseniyms/MatusHomework.git`)
+  - OtusHomework (from `https://github.com/NikkoGladkko/OtusHomework.git`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - ICConfetti
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MatusHomework:
+    :git: https://github.com/Arseniyms/MatusHomework.git
+  OtusHomework:
+    :git: https://github.com/NikkoGladkko/OtusHomework.git
+
+CHECKOUT OPTIONS:
+  MatusHomework:
+    :commit: 21df34a2dd01e544f38e32fd91371bee68ab61b5
+    :git: https://github.com/Arseniyms/MatusHomework.git
+  OtusHomework:
+    :commit: 1ae346db9691a33c28fa8df3a7cc3c215d1c6b59
+    :git: https://github.com/NikkoGladkko/OtusHomework.git
+
+SPEC CHECKSUMS:
+  ICConfetti: 64f471f8a89dedace1eb30e72afb063a44bcc527
+  MatusHomework: cb56301268424d910b69de4c0120a8c960955e99
+  OtusHomework: 46a6312189e609e6c6b2d14aa088ad552ffe5714
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 4c38e3c3bf26f9afdb8b5dd752ce169a6bb7205e
+
+COCOAPODS: 1.11.3

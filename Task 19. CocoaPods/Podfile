@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Task 19. CocoaPods' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Task 19. CocoaPods
+  pod 'SnapKit'
+  pod 'OtusHomework', :git => 'https://github.com/NikkoGladkko/OtusHomework.git'
+  pod 'MatusHomework', :git => 'https://github.com/Arseniyms/MatusHomework.git'
+
+end

@@ -29,7 +29,19 @@
 		DC69DF44291830A00015BC51 /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69DF3A291830A00015BC51 /* TextFieldExtensions.swift */; };
 		DC69DF45291830A00015BC51 /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69DF3B291830A00015BC51 /* InfoLabel.swift */; };
 		DC6D84DE29194A81002C36A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D84DD29194A81002C36A0 /* User.swift */; };
+		DCB5930A293CA1010024FA9E /* Task_12_13__VIPER__PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59309293CA1010024FA9E /* Task_12_13__VIPER__PatternsTests.swift */; };
+		DCB59312293CA1690024FA9E /* ProfileLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB59311293CA1690024FA9E /* ProfileLogicTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB5930B293CA1010024FA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC69DEF72918297D0015BC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC69DEFE2918297D0015BC51;
+			remoteInfo = "Task 12,13. VIPER, Patterns";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DC42AD92291A48CB00139A14 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -56,10 +68,20 @@
 		DC69DF3A291830A00015BC51 /* TextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtensions.swift; sourceTree = "<group>"; };
 		DC69DF3B291830A00015BC51 /* InfoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
 		DC6D84DD29194A81002C36A0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCB59307293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task 12,13. VIPER, PatternsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB59309293CA1010024FA9E /* Task_12_13__VIPER__PatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_12_13__VIPER__PatternsTests.swift; sourceTree = "<group>"; };
+		DCB59311293CA1690024FA9E /* ProfileLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLogicTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DC69DEFC2918297D0015BC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59304293CA1010024FA9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DC69DF012918297D0015BC51 /* Task 12,13. VIPER, Patterns */,
+				DCB59308293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests */,
 				DC69DF002918297D0015BC51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DC69DEFF2918297D0015BC51 /* Task 12,13. VIPER, Patterns.app */,
+				DCB59307293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +219,23 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		DCB59308293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59310293CA1500024FA9E /* ProfileLogicTests */,
+				DCB59309293CA1010024FA9E /* Task_12_13__VIPER__PatternsTests.swift */,
+			);
+			path = "Task 12,13. VIPER, PatternsTests";
+			sourceTree = "<group>";
+		};
+		DCB59310293CA1500024FA9E /* ProfileLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB59311293CA1690024FA9E /* ProfileLogicTests.swift */,
+			);
+			path = ProfileLogicTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +256,24 @@
 			productReference = DC69DEFF2918297D0015BC51 /* Task 12,13. VIPER, Patterns.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DCB59306293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5930F293CA1010024FA9E /* Build configuration list for PBXNativeTarget "Task 12,13. VIPER, PatternsTests" */;
+			buildPhases = (
+				DCB59303293CA1010024FA9E /* Sources */,
+				DCB59304293CA1010024FA9E /* Frameworks */,
+				DCB59305293CA1010024FA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5930C293CA1010024FA9E /* PBXTargetDependency */,
+			);
+			name = "Task 12,13. VIPER, PatternsTests";
+			productName = "Task 12,13. VIPER, PatternsTests";
+			productReference = DCB59307293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +286,10 @@
 				TargetAttributes = {
 					DC69DEFE2918297D0015BC51 = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					DCB59306293CA1010024FA9E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DC69DEFE2918297D0015BC51;
 					};
 				};
 			};
@@ -244,6 +307,7 @@
 			projectRoot = "";
 			targets = (
 				DC69DEFE2918297D0015BC51 /* Task 12,13. VIPER, Patterns */,
+				DCB59306293CA1010024FA9E /* Task 12,13. VIPER, PatternsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +319,13 @@
 			files = (
 				DC69DF0F2918297E0015BC51 /* LaunchScreen.storyboard in Resources */,
 				DC69DF0C2918297E0015BC51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB59305293CA1010024FA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +359,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCB59303293CA1010024FA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB59312293CA1690024FA9E /* ProfileLogicTests.swift in Sources */,
+				DCB5930A293CA1010024FA9E /* Task_12_13__VIPER__PatternsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB5930C293CA1010024FA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC69DEFE2918297D0015BC51 /* Task 12,13. VIPER, Patterns */;
+			targetProxy = DCB5930B293CA1010024FA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DC69DF0D2918297E0015BC51 /* LaunchScreen.storyboard */ = {
@@ -470,6 +558,42 @@
 			};
 			name = Release;
 		};
+		DCB5930D293CA1010024FA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Task-12-13--VIPER--PatternsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task 12,13. VIPER, Patterns.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task 12,13. VIPER, Patterns";
+			};
+			name = Debug;
+		};
+		DCB5930E293CA1010024FA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Task-12-13--VIPER--PatternsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task 12,13. VIPER, Patterns.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task 12,13. VIPER, Patterns";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -487,6 +611,15 @@
 			buildConfigurations = (
 				DC69DF142918297E0015BC51 /* Debug */,
 				DC69DF152918297E0015BC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5930F293CA1010024FA9E /* Build configuration list for PBXNativeTarget "Task 12,13. VIPER, PatternsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5930D293CA1010024FA9E /* Debug */,
+				DCB5930E293CA1010024FA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

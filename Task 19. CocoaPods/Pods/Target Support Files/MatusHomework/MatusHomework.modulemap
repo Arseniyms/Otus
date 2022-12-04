@@ -1,0 +1,6 @@
+framework module MatusHomework {
+  umbrella header "MatusHomework-umbrella.h"
+
+  export *
+  module * { export * }
+}

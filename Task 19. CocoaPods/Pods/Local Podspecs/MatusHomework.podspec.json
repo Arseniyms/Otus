@@ -1,0 +1,35 @@
+{
+  "name": "MatusHomework",
+  "version": "0.0.18",
+  "summary": "First CocoaPod of Arseniy Matus.",
+  "description": "This is first CocoaPod for OTUS homework",
+  "homepage": "https://github.com/Arseniyms/MatusHomework",
+  "license": {
+    "type": "MIT"
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.6.0"
+    ],
+    "OtusHomework": [
+
+    ],
+    "ICConfetti": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "authors": {
+    "Arseniy": "arsmatus@list.ru"
+  },
+  "source": {
+    "git": "https://github.com/Arseniyms/MatusHomework.git",
+    "tag": "0.0.18"
+  },
+  "source_files": "MatusHomework/**/*.{swift,h,m}",
+  "public_header_files": "MatusHomework/**/*.{h}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

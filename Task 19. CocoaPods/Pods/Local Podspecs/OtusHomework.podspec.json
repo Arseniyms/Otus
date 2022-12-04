@@ -1,0 +1,29 @@
+{
+  "name": "OtusHomework",
+  "version": "0.0.17",
+  "summary": "OTUS Homework module for demonstrations",
+  "description": "This is the demo lesson project for OTUS Homework",
+  "homepage": "https://github.com/NikkoGladkko/OtusHomework",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Николай Гладковский": "ngladkovskiy@vtb.ru"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/NikkoGladkko/OtusHomework.git",
+    "tag": "0.0.17"
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
+  "source_files": "OtusHomework/**/*.{swift,h,m}",
+  "public_header_files": "OtusHomework/**/*.{h}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
